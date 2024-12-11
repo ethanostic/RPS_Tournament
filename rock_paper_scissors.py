@@ -3,6 +3,7 @@ import time
 
 bot_1_name = input("Bot 1 file name (without .py): ")
 bot_2_name = input("Bot 2 file name (without .py): ")
+max_rounds = int(input("Number of rounds: "))
 
 bot_1 = importlib.import_module(bot_1_name)
 bot_2 = importlib.import_module(bot_2_name)
@@ -73,7 +74,6 @@ player_1_answer = None
 player_2_answer = None
 
 round_number = 1
-max_rounds = 100
 
 while round_number <= max_rounds:
     bot_1_choice = bot_1.generate_choice(player_1_return_plays, player_1_answer)
