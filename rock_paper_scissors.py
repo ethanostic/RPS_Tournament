@@ -58,7 +58,7 @@ def play(bot_1_name, bot_1_choice, bot_2_name, bot_2_choice):
 
 def return_information(bot_1_choice, bot_2_choice, round_number, win):
     global player_1_answer, player_2_answer
-    player_1_return_plays[round_number] = [bot_1_choice, bot_2_choice]
+    player_1_return_plays[round_number] = [bot_1_choice, bot_2_choice] # Only gets info from the winner of each round
     player_2_return_plays[round_number] = [bot_2_choice, bot_1_choice]
     
     if win == 1:
