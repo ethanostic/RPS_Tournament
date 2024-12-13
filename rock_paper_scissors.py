@@ -1,5 +1,4 @@
 import importlib
-import time
 
 def main_rps(bot_1_name, bot_2_name, max_rounds):
 
