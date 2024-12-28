@@ -13,7 +13,6 @@ file_names.remove("create_tournament_rounds.py")
 file_names.remove("rock_paper_scissors.py")
 file_names.remove("template.py")
 file_names.remove("README.md")
-file_names.remove("testfile.py")
 
 # Remove .py extension from filenames
 file_names_without_py = []
